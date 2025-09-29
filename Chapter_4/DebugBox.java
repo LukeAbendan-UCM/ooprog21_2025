@@ -22,10 +22,4 @@ public class DebugBox {
     public double getVolume() {
         return length * width * height;
     }
-
-    public static void main(String[] args) {
-        DebugBox box = new DebugBox(3, 4, 5);
-        box.showData();
-        System.out.println("Volume: " + box.getVolume());
-    }
 }
