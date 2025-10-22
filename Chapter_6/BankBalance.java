@@ -22,8 +22,7 @@ public class BankBalance {
             System.out.print("\nDo you want to see the balance at the end of another year?\nEnter 1 for yes or any other number for no >> ");
             choice = input.nextInt();
         }
-
-        System.out.println("\n---- jGRASP: Operation complete.");
         input.close();
     }
 }
+
